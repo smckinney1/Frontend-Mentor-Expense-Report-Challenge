@@ -1,3 +1,43 @@
 .spending-report {
   background: var(--palest-orange);
+  color: var(--medium-brown);
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+.spending-report h2,
+.spending-report--month-total,
+.spending-report--month-increase-percentage {
+  color: var(--dark-brown);
+}
+
+.spending-report h2 {
+  font-size: var(--font-size-large);
+  margin-bottom: 1.125rem;
+}
+
+.spending-report h3 {
+  font-size: var(--font-size-body);
+}
+
+.spending-report h2,
+.spending-report--month-total,
+.spending-report--month-increase-percentage {
+  font-weight: var(--font-weight-bold);
+}
+
+.spending-report hr {
+  border: 0;
+  border-radius: 1px;
+  border-top: 2px solid var(--cream);
+  margin: 2rem 0;
+}
+
+.spending-report--month-total {
+  font-size: var(--font-size-largest);
+}
+
+.spending-report--month-total-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
