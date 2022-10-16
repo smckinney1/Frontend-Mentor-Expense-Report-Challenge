@@ -1,0 +1,43 @@
+.my-balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: var(--soft-red);
+  border-radius: 10px;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+
+  padding: 1.25rem 1.5rem 1.375rem 1.25rem;
+}
+
+.my-balance h2 {
+  margin-bottom: 0.5rem;
+}
+
+.my-balance p {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+}
+
+.my-balance--circles {
+  display: flex;
+  position: relative;
+}
+
+.my-balance--circle1,
+.my-balance--circle2 {
+  border-radius: 100%;
+  height: var(--circle-size);
+  width: var(--circle-size);
+}
+
+.my-balance--circle1 {
+  border: 2px solid var(--white);
+  left: calc(var(--circle-size) * -0.5);
+  position: absolute;
+}
+
+.my-balance--circle2 {
+  background: var(--dark-brown);
+}
